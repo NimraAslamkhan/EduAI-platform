@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual envs
+.venv/
+venv/
+ENV/
+env/
+
+# Env files (do not commit)
+.env
+.env.*
+
+# Local secrets/config
+secrets/
+api_keys.json
+*.env
+
+# Streamlit cache
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains/VSCode
+.idea/
+.vscode/
+
+# Testing
+.pytest_cache/
+
+# Misc
+coverage/
+htmlcov/
+
